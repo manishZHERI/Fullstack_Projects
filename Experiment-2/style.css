@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+}
+
+.bank-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.balance {
+  font-size: 2rem;
+  color: #388e3c;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.deposit {
+  background-color: #4caf50;
+}
+
+.deposit:hover {
+  background-color: #43a047;
+}
+
+.withdraw {
+  background-color: #f44336;
+}
+
+.withdraw:hover {
+  background-color: #e53935;
+}
+
+@media (max-width: 480px) {
+  .bank-card {
+    padding: 1.5rem;
+  }
+
+  .balance {
+    font-size: 1.75rem;
+  }
+}
