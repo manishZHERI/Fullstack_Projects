@@ -1,0 +1,31 @@
+
+Problem Title:
+SVG Drawing Tool
+
+Objective:
+Build a web-based drawing tool using SVG (Scalable Vector Graphics) where users can draw interactively using the mouse. This exercise will help you understand JavaScript DOM manipulation, SVG element creation, and advanced event handling.
+
+Task Description:
+- Create a web page that includes an SVG area acting as a drawing canvas.
+- Users should be able to click and drag inside the SVG area to draw shapes (for example, lines or freehand paths).
+- The drawing should happen in real-time as the mouse moves.
+- Use mouse events:
+  - mousedown → Start drawing.
+  - mousemove → Update the shape as the mouse moves.
+  - mouseup → Stop drawing.
+- After finishing one drawing, the user should be able to start another by repeating the process.
+- All interaction must be done using JavaScript, without reloading the page.
+- Use SVG elements such as <path>, <line>, or <rect> for drawing.
+- Output should look similar to the reference image where text or shapes appear as drawn.
+
+Expected Output:
+- An SVG canvas inside a bordered container.
+- When the user clicks and drags, a line or freehand path is drawn following the mouse.
+- Users can draw multiple shapes without clearing the canvas.
+
+Key Skills You’ll Learn:
+- SVG basics and element creation
+- Handling mouse events in JavaScript
+- DOM manipulation with createElementNS for SVG
+- Updating attributes dynamically (d, x, y)
+- Real-time interactivity in the browser
