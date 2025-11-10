@@ -1,0 +1,52 @@
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+
+
+.banking-card {
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.balance {
+  font-size: 2rem;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn.deposit {
+  background-color: #4CAF50;
+}
+
+.btn.withdraw {
+  background-color: #f44336;
+}
+
+  .btn {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .balance {
+    font-size: 1.5rem;
+  }
+
